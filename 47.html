@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script>
+    
+    // 求离地球末日还有几天（加入2012年12月30日为地球末日）。
+    
+        var endtime = new Date('2012,12,30');
+        var starttime = new Date();
+        document.write ('距离 ' + endtime.toLocaleString() + '还有' + Math.floor((endtime.getTime() - starttime.getTime()) / 1000 / 3600 / 24 ) +'天');
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
